@@ -865,3 +865,30 @@ HAMBURGER MENU
 .nav-links{
     list-style:none !important;
 }
+
+
+/* About Section */
+.about {
+    min-height: 100vh;
+    padding: 100px 10%;
+    text-align: center;
+    background: #0b1120;
+}
+
+.about h2 {
+    font-size: 45px;
+    color: #38bdf8;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d1d5db;
+    margin-bottom: 25px;
+}
