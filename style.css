@@ -892,3 +892,74 @@ HAMBURGER MENU
     color: #d1d5db;
     margin-bottom: 25px;
 }
+
+
+/* Education Section */
+.education {
+    min-height: 70vh;
+    padding: 80px 10%;
+    text-align: center;
+    background: #111827;
+}
+
+.education h2 {
+    font-size: 45px;
+    color: #38bdf8;
+    margin-bottom: 40px;
+}
+
+.education-btn {
+    width: 300px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: #1e293b;
+    border: 2px solid #38bdf8;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.education-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #38bdf8;
+}
+
+#education-arrow {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.education-details {
+    display: none;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 15px;
+    animation: educationSlide 0.5s ease;
+}
+
+.education-details h3 {
+    color: #38bdf8;
+    font-size: 28px;
+}
+
+.education-details p {
+    color: #d1d5db;
+    font-size: 19px;
+    margin: 18px 0;
+}
+
+@keyframes educationSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

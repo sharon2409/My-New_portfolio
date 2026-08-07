@@ -127,6 +127,19 @@ button.addEventListener("click",()=>{
 
 document.querySelector(".hero").classList.add("show");
 
+function toggleEducation() {
+    const details = document.getElementById("education-details");
+    const arrow = document.getElementById("education-arrow");
+
+    if (details.style.display === "block") {
+        details.style.display = "none";
+        arrow.textContent = "▼";
+    } else {
+        details.style.display = "block";
+        arrow.textContent = "▲";
+    }
+}
+
 // ==========================
 // Skill Cards Animation
 // ==========================
